@@ -1,8 +1,6 @@
 # Assignment: Build your own site!
 In this exercise you need to create your own web page. Use everything what you've learnt so far.
-
 There are some requirements you should fulfill:
-
 The page should contain at least 3 subpages.
 Its html should be W3C valid.
 It should contain properly used HTML5 elements
