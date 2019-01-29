@@ -48,33 +48,37 @@
     <div class="content">
         <div class="container">
             <h3> Make your reservation here: </h3>
-            <form>
-                <label for="fname"></label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                <label for="lname"></label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <form name="reservation" id="reservation">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" onKeyup="validateIsFull();validateName()" placeholder="Your name..">
+                <div id="nameError"></div>
 
                 <label for="number"></label>
-                <input type="text" id="lname" name="lastname" placeholder="Number of people..">
+                <input type="text" id="number" name="lastname" onKeyup="validateIsFull();validateNumber()" placeholder="Number of guests..">
+                <div id="numberError"></div>
+
+                <label for="email"></label>
+                <input type="text" id="email" name="email" onKeyup="validateIsFull();validateEmail()" placeholder="Email..">
+                <div id="emailError"></div>
 
                 <label for="message"></label>
-                <textarea id="message" name="message" placeholder="Message.." style="height:200px"></textarea>
+                <textarea id="message" name="message" onKeyup="validateIsFull();validateMessage()" placeholder="Message.." style="height:200px"></textarea>
+                <div id="messageError"></div>
 
-                <input type="submit" value="Submit">
+                <input type="button" id="submit" value="Submit" disabled="disabled" onclick="validateForm()">
+                <div id="submitInfo"><br></div> 
             </form>
-        </div>
-    </div>
+            <script src="../js/validation.js"></script>
 
 
 
-    <footer>
-        <div class="short-note">
-            <p>“We're all mad here.”
-                <br>― Lewis Carroll, Alice in Wonderland </p>
+            <footer>
+                <div class="short-note">
+                    <p>“We're all mad here.”
+                        <br>― Lewis Carroll, Alice in Wonderland </p>
 
-        </div>
-    </footer>
+                </div>
+            </footer>
 </body>
 
 </html>

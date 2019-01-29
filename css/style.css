@@ -226,8 +226,8 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input[type=submit] {
-  margin-top: 1%; 
+input[type=button] {
+  margin-top: 2%; 
   margin-bottom: 5%;
   float: left;
   background-color:  rgb(158, 76, 175);
@@ -241,18 +241,24 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color:  rgb(158, 76, 175);
+  margin-bottom: 3%;
 }
 
 .container {
   margin-top: 1%;
   border-radius: 5px;
   padding: 20px;
+  margin-bottom: 3%;
 }
 
 .short-note {
-  margin-top: 30%;
   margin-left: 0%;
+  position: absolute;
+  top: 950px;
+  
 }
+
+
 
 
 
