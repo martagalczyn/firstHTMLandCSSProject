@@ -29,6 +29,7 @@ header {
   text-align: center;
 }
 
+
 /* navigation bar */
 .topnav {
   font-family: var(--nice-font);
@@ -67,9 +68,8 @@ li a:hover:not(.active) {
   background-color: rgb(158, 76, 175);
 }
 
+
 /*content*/
-
-
 
 .main-photos {
  display: flex;
@@ -80,12 +80,12 @@ li a:hover:not(.active) {
  height: 50%;
 }
 
+
 /* text content*/
 .text{
   padding-right: 10%;
   padding-left: 10%;
   margin: 8%;
-  
 }
 
 .quotation {
@@ -97,6 +97,7 @@ li a:hover:not(.active) {
 .about {
   display: flex;
 }
+
 .about-info {
   font-family: var(--nice-font);
   font-size: 200%;
@@ -104,14 +105,12 @@ li a:hover:not(.active) {
   padding-left: 7%;
   padding-right: 7%;
   padding-bottom: 20%;
-
-
 }
+
 .title-photo {
   align-items: flex-end;
   height: 50%;
   width: 50%;
-  
 }
 
 .thick-white-border {
@@ -119,6 +118,7 @@ li a:hover:not(.active) {
   border-color: whitesmoke;
   border-style: none;
 }
+
 
 /*info page*/
 .mapcontent {
@@ -185,8 +185,8 @@ iframe{
   width: 58vw;
   height: 58vh;
   height: auto;
-
 }
+
 
 /*table*/
 
@@ -212,6 +212,7 @@ tr:nth-child(even) {
   color: black;
 }
 
+
 /*reservations page*/
 input[type=text], select, textarea {
   float: left;
@@ -236,7 +237,6 @@ input[type=button] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-
 }
 
 input[type=submit]:hover {
@@ -254,8 +254,7 @@ input[type=submit]:hover {
 .short-note {
   margin-left: 0%;
   position: absolute;
-  top: 950px;
-  
+  top: 1100px;
 }
 
 
